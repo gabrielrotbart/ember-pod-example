@@ -1,0 +1,12 @@
+& {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pod {
+  height: 200px;
+  width: 200px;
+  margin: 1em;
+  border-radius: 50%;
+  background: no-repeat center/80% url('/assets/images/pod.png');
+}

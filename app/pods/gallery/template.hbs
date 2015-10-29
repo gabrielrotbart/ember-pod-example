@@ -1,0 +1,12 @@
+<div class='gallery'>
+
+  {{outlet}}
+
+  {{#each model as |pod|}}
+    {{#if pod.isRed}}
+      {{red-pod pod=pod}}
+    {{else}}
+      {{blue-pod pod=pod}}
+    {{/if}}
+  {{/each}}
+</div>

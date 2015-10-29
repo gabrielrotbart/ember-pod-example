@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "podification.css",
+	"sources": [
+		"../../sass_compiler-input_base_path-fZZDGrGt.tmp/0/app/styles/app.scss",
+		"../../sass_compiler-input_base_path-fZZDGrGt.tmp/0/pod-styles.scss"
+	],
+	"sourcesContent": [
+		"@import \"pod-styles\";",
+		".blue-pod{.pod {\n  box-shadow: inset 0 0 5em blue;\n}}.red-pod{.pod {\n  box-shadow: inset 0 0 5em red;\n}}.gallery-peek{& {\n  width: 100%;\n  height: 25em;\n  display: flex;\n}\n\n.peek {\n  height: 100%;\n  flex: 2;\n\n  &.mars {\n    background: no-repeat center/50% url('/assets/images/mars.jpg');\n  }\n\n  &.sneakers {\n    background: no-repeat center/40% url('/assets/images/snickers.jpg');\n  }\n}\n\n.close {\n  flex: 1;\n  width: 100px;\n  height: 100px;\n  background: no-repeat center/40% url('/assets/images/cancel-circle.svg');\n}\n\n}.gallery{& {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.pod {\n  height: 200px;\n  width: 200px;\n  margin: 1em;\n  border-radius: 50%;\n  background: no-repeat center/80% url('/assets/images/pod.png');\n}}"
+	],
+	"mappings": "ACAA,SAAS,CAAC,IAAI,CAAC;EACb,UAAU,EAAE,kBAAmB,GAChC;;AAAC,QAAQ,CAAC,IAAI,CAAC;EACd,UAAU,EAAE,iBAAkB,GAC/B;;AAAC,aAAa,CAAG;EAChB,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK,GACf;;AAJC,aAAa,CAMf,KAAK,CAAC;EACJ,MAAM,EAAE,IAAK;EACb,IAAI,EAAE,CAAE,GAST;EAjBC,aAAa,CAMf,KAAK,AAIF,KAAK,CAAC;IACL,UAAU,EAAE,SAAS,CAAC,UAAM,CAAK,8BAAG,GACrC;EAZD,aAAa,CAMf,KAAK,AAQF,SAAS,CAAC;IACT,UAAU,EAAE,SAAS,CAAC,UAAM,CAAK,kCAAG,GACrC;;AAhBD,aAAa,CAmBf,MAAM,CAAC;EACL,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,SAAS,CAAC,UAAM,CAAK,uCAAG,GACrC;;AAEA,QAAQ,CAAG;EACV,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,IAAK,GACjB;;AAHA,QAAQ,CAKT,IAAI,CAAC;EACH,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,GAAI;EACZ,aAAa,EAAE,GAAI;EACnB,UAAU,EAAE,SAAS,CAAC,UAAM,CAAK,6BAAG,GACrC",
+	"names": []
+}
